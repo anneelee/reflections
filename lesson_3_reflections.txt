@@ -1,7 +1,12 @@
-When would you want to create a remote repository rather than keeping all your work local?
+Q. When would you want to create a remote repository rather than keeping all your 	      work local?
 
-You would create a remote repository so you can collaborate with others and so you can work on your project from different devices.
+A. You would create a remote repository so you can collaborate with others and so you can work on your project from different devices.
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-To give me control over what changes are added and when. 
+A. To give me control over what changes are added and when. 
+
+Q. Describe the difference between forks, clones, and branches. When would you use one instead of another?
+
+A. Forks are used when you are cloning a repository on GitHub. For example when you cloned Larry’s recipe repository to your GitHub account, that is called forking. Forking is like cloning, but on GitHub not on your local computer. Once you have forked a repository to your profile, you can clone it to your local machine, so you can work on the project locally. When you do this GitHub creates a remote for you. Branches are used when you want to try something with your code, but don’t want to make changes to the master. You can merge a branch into the master once you are satisfied with it and want it to be part of the master file. 
+You would use forks when you want to clone a repository on GitHub, you would use clones when you want to copy that repository to your local computer, and you would use branches when you want to try something with your code, but don’t want to commit it to the master. 
