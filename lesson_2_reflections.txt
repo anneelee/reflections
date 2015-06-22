@@ -7,3 +7,33 @@ How is the staging area different from the working directory and the repository?
 
 The staging area differs from the working directory in that it allows you to pick which file or files you want to add to your repository in a single commit. This is valuable because you can organize your repository by commits and it gives you the control. 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can see what is going to be committed before you commit it.
+
+What are some situations when branching would be helpful in keeping your history organized? How would branches help?
+
+Branches can help keep your history organized if you want to make an experimental change to your code but you want to keep the master easily accessible and not commit the changes in your experimental branch to the main branch. Braces help because you can easily get back to your master branch while making more experimental changes to the code without making those changes to the main branch. 
+
+How do the diagrams help you visualize the entire brach structure? 
+
+Diagrams help you see how the branches are organized. You can see what commits were made to the master after the branch you are working on was created so these commits will not be in your branch you can also visualize what new breaches may have been created. You can also see that you cannot get to a change say in the master from the branch you are currently working on if it was made after you branched out from the master. You can also see that if you checkout a commit and make a change to it you won’t be able to get to it if it’s not made a branch itself. Each commit needs to have a parent  
+
+What is the result of merging two branches together? Why do we represent it in a diagram the way we do?
+
+The result of merging two branches together is it add the branch with its commits to the master, then you can delete the merged branch. It is represented in diagram form because it make it easier to see what is included in the merge and what is not. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The pros are that it makes it easy to merge branches and you can see where a conflict may be so mistakes aren’t made. The cons are you have to manually make these changes.
+
+
+
+
+
+
+
+
+
+
+
