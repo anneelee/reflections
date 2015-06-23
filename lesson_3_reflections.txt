@@ -9,4 +9,8 @@ A. To give me control over what changes are added and when.
 Q. Describe the difference between forks, clones, and branches. When would you use one instead of another?
 
 A. Forks are used when you are cloning a repository on GitHub. For example when you cloned Larry’s recipe repository to your GitHub account, that is called forking. Forking is like cloning, but on GitHub not on your local computer. Once you have forked a repository to your profile, you can clone it to your local machine, so you can work on the project locally. When you do this GitHub creates a remote for you. Branches are used when you want to try something with your code, but don’t want to make changes to the master. You can merge a branch into the master once you are satisfied with it and want it to be part of the master file. 
-You would use forks when you want to clone a repository on GitHub, you would use clones when you want to copy that repository to your local computer, and you would use branches when you want to try something with your code, but don’t want to commit it to the master. 
+You would use forks when you want to clone a repository on GitHub, you would use clones when you want to copy that repository to your local computer, and you would use branches when you want to try something with your code, but don’t want to commit it to the master.
+
+Q. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A. It will help you track what changes you have made compared to the online repository and will help you resolve conflicting commits when working on a project with multiple contributors. 
