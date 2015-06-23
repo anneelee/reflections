@@ -14,3 +14,7 @@ You would use forks when you want to clone a repository on GitHub, you would use
 Q. What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A. It will help you track what changes you have made compared to the online repository and will help you resolve conflicting commits when working on a project with multiple contributors. 
+
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A. To collaborate without using GitHub you could email or use Dropbox. Most people know how to use them email and Dropbox is fairly simple, but not everyone knows how to use Git and GitHub. Git and GitHub have a much steeper learning curve. It would be harder to use email and Dropbox because it would be more difficult to track changes, commits, and conflicts. 
