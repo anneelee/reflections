@@ -18,3 +18,7 @@ A. It will help you track what changes you have made compared to the online repo
 Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A. To collaborate without using GitHub you could email or use Dropbox. Most people know how to use them email and Dropbox is fairly simple, but not everyone knows how to use Git and GitHub. Git and GitHub have a much steeper learning curve. It would be harder to use email and Dropbox because it would be more difficult to track changes, commits, and conflicts. 
+
+Q. When would you want to make changes in a separate branch rather than directly in master? What benefit does each approach have?
+
+A. You would want to make changes in a separate branch so you can experiment with your changes without changing the master. Also you would want to pull changes into your local master so that it is up to date with the remote master so that when you do merge your branch into the master you don’t erase the changes made to the remote master. 
